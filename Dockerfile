@@ -9,6 +9,6 @@ WORKDIR /src/app
 RUN npm install -f && \
         npm i -D nodemon
 
-EXPOSE 3000
+EXPOSE 80
 
 ENTRYPOINT npm run dev
